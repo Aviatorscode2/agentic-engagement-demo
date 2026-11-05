@@ -15,7 +15,7 @@ export default function Page() {
             <span className="brand-name">Parcelly</span>
             <span className="brand-tag">Demo store</span>
           </div>
-          <a className="topbar-link" href="https://github.com/novuhq/agentic-engagement-demo">
+          <a className="topbar-link" href="https://github.com/Aviatorscode2/agentic-engagement-demo">
             View the code
           </a>
         </div>

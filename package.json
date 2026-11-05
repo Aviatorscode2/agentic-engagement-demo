@@ -1,0 +1,41 @@
+{
+  "name": "agentic-engagement-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The same customer engagement system built three times: Novu, Knock, and Courier.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "novu:dev": "npx novu@latest dev --port 3000",
+    "novu:sync": "npx novu@latest sync --bridge-url $BRIDGE_URL --secret-key $NOVU_SECRET_KEY"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^4.0.0",
+    "@knocklabs/node": "^1.0.0",
+    "@knocklabs/react": "^0.7.0",
+    "@novu/api": "^1.0.0",
+    "@novu/framework": "^2.0.0",
+    "@novu/nextjs": "^3.0.0",
+    "@novu/react": "^3.0.0",
+    "@trycourier/courier": "^7.0.0",
+    "@trycourier/courier-react": "^9.0.0",
+    "ai": "^7.0.0",
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.1.0",
+    "server-only": "^0.0.1",
+    "zod": "^3.25.76",
+    "zod-to-json-schema": "^3.25.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
